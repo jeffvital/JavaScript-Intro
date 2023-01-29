@@ -17,4 +17,3 @@ let falso1 = valorF1 && valorF2;
 let falso2 = !valorF2;
 console.log(falso1);
 console.log(falso2);
-// let falso2 = ;
