@@ -1,4 +1,4 @@
-let nota = 2;
+let nota = 9.9;
 
 if (nota < 10 && nota >= 9) {
   console.log("A");
