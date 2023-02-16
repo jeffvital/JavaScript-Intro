@@ -1,6 +1,6 @@
-function executar(funcao) {
-  if (typeof funcao === "function") {
-    console.log(funcao());
+function executar(param) {
+  if (typeof param === "function") {
+    console.log(param());
   }
 }
 
@@ -16,4 +16,4 @@ executar(bomDia); // aqui passa a função como parâmetro.
 
 console.log(x()); // "x" teve a função bomDia atribuida a ela tornando-se também uma função.
 
-console.log(y); // y nesse teve o conteúdo da função bomDia atribuida a ela que nesse caso é "Bom dia!"
+console.log(y); // y nesse caso teve o conteúdo da função bomDia atribuida a ela que nesse caso é "Bom dia!"
