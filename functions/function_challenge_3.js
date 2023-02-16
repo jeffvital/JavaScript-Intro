@@ -42,7 +42,7 @@
 
 const nota1 = 7.8;
 const nota2 = 3.1;
-const nota3 = 2;
+const nota3 = 7;
 
 // AQUI DESCOBRIMOS A MENOR NOTA DAS TRÊS FORNECIDAS.
 function minimo(n1, n2) {
