@@ -12,8 +12,8 @@ const x = bomDia; // atribui a função a x
 
 const y = bomDia(); // aqui a função foi executada então o valor de y é a string "Bom dia!"
 
-executar(bomDia);
+executar(bomDia); // aqui passa a função como parâmetro.
 
-console.log(x());
+console.log(x()); // "x" teve a função bomDia atribuida a ela tornando-se também uma função.
 
-console.log(y);
+console.log(y); // y nesse teve o conteúdo da função bomDia atribuida a ela que nesse caso é "Bom dia!"
