@@ -7,4 +7,4 @@ console.log(notas[5]);
 console.log(notas[10]);
 
 notas[4] = 20;
-console.log(notas)
+console.log(notas);
