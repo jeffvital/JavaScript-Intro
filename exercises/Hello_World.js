@@ -3,6 +3,6 @@ function comprimentar(name) {
   return `Olá, ${text}!`;
 }
 
-const exibir = comprimentar("Jefferson");
+const exibir = comprimentar("Jeff");
 
 console.log(exibir);
