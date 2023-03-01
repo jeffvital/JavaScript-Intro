@@ -1,5 +1,14 @@
-function converterIdadeEmAnosParaDias(idade) {
-  return idade * 365;
+function anosParaDias(idadeEmAnos) {
+  const diasEmUmAno = 365;
+
+  return (result = diasEmUmAno * idadeEmAnos);
 }
 
-console.log(converterIdadeEmAnosParaDias(25));
+function diasParaHoras(dias) {
+  let dayHour = 24;
+  return dias * dayHour;
+}
+
+console.log(anosParaDias(30));
+
+console.log(diasParaHoras(result));
